@@ -12,7 +12,7 @@ public class HelloWorld {
 		try{
 			PdfWriter pw =PdfWriter.getInstance(d, new FileOutputStream("Hello world"));
 			d.open();
-			d.add(new Paragraph(" A hello world pdf document"));
+			d.add(new Paragraph("hello world pdf document"));
 			d.close();
 			pw.close();
 		}
